@@ -1,0 +1,38 @@
+{% extends 'barra.html' %} 
+
+{% block content %}
+
+
+<div class="container_f">
+  <div class="form__top navbar-dark bg-dark">
+    <h2>Formulario de <span> Edicion</span></h2>
+    <form method="POST" class="form__reg" >
+
+      {% csrf_token %} 
+      <label class="input" type="text" >{{ form.nombre }}</label>
+
+      <label class="input" type="text">{{ form.cedula }}</label>
+
+      <label class="input" type="text">{{ form.telefono }}</label>
+
+      <label class="input" type="text">{{ form.marca }}</label>
+
+      <label class="input" type="text">{{ form.matricula }}</label>
+
+      <label class="input" type="date">{{ form.diaentrada}}</label> 
+
+      <label class="input" type="text">{{ form.vahiculo }}</label>
+
+      <input class="input" type="checkbox"  {{ form.vigencia }}>
+
+     <div class="send">
+        <input
+          style="border-radius: 15px;"
+          class="btn btn-success"
+          type="submit"
+          value="Actulizar"
+        />
+    </form>
+  </div>
+</div>
+{% endblock %}
