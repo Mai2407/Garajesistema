@@ -3,15 +3,21 @@ Gestionar los vehiculos de los clientes.
 
 Sistema que permite introduccir clientes y sabes el dia de entrada, cuantos dias tiene guardado el automovil o motor de el cliente y le da el precio.
 
-Descargar el archivo zip
+En caso de que lo quiera instalar en un environment con pipenv
 
-Install pipenv
+-Install pipenv
 
-pipenv shell para iniciarlo en consola
+-pipenv shell para iniciarlo en consola
 
-Install dependencies:
+-Install dependencies:
 
-pip install -r requirements.txt
+   .pipenv install -r requirements.txt
+
+En caso de que no lo quiera instalar en un environment, si no en su misma maquina:
+
+-Install dependencies:
+
+-pip install -r requirements.txt
 
 Tools
 
