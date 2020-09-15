@@ -15,9 +15,10 @@ pip install -r requirements.txt
 
 Tools
 
-Python
-Django
-Mysql
+ Python
+ Django
+ Mysql
+ Git
 
 ![](imagenes/1.png)
 
