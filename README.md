@@ -21,9 +21,9 @@ En caso de que no lo quiera instalar en un environment, si no en su misma maquin
 
 Tools
 
- Python
- Django
- Mysql
+ Python,
+ Django,
+ Mysql,
  Git
 
 ![](imagenes/1.png)
